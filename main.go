@@ -12,13 +12,13 @@ import (
 内容：模块二作业
 完成情况：
 
-		已完成：
-			1. 完成request的header写入response的header
-	    	2. 完成将环境变量VERSION的值写入response的header
-	        3. 打印客户端IP，因为不知道如何拦截所有入口，统一处理，只好在/路径和/healthz两个handleFunc里都打印
-			4. 完成客户端访问/healthz的时候，返回statusCode为200
-		未完成：
-	     	问题3， 不知道如何拦截http最终的返回response，无法get到statusCode
+	已完成：
+		1. 完成request的header写入response的header
+		2. 完成将环境变量VERSION的值写入response的header
+		3. 打印客户端IP，因为不知道如何拦截所有入口，统一处理，只好在/路径和/healthz两个handleFunc里都打印
+		4. 完成客户端访问/healthz的时候，返回statusCode为200
+	未完成：
+		对问题3， 不知道如何拦截http最终的返回response，无法get到statusCode
 
 *
 */
